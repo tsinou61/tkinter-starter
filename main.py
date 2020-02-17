@@ -31,7 +31,7 @@ def addToScore():
 
 
 click = Button(window, text="Click", command=addToScore)
-click.grid(column = 0 , row = 4)
+click.grid(column = 4 , row = 4)
 
 combo = Combobox(window)
 combo['values']= (1, 2, 3, 4, 5)
